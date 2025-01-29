@@ -22,7 +22,7 @@ body{
 .main .box {
     height: 70vh;
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.69 ;
     background-color: black;
     position: absolute;
     top: 0;
@@ -34,7 +34,7 @@ nav {
     margin: auto;
     align-items: center;
     justify-content: space-between;
-    height: 62;
+    height: 62px;
 }
 
 nav img {
@@ -51,7 +51,7 @@ nav button {
 
 .hero {
     font-family: 'Martel Sans', sans-serif;
-    height: 100%;
+    height: calc(100% - 62px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,7 +59,7 @@ nav button {
     color: white;
     position: relative;
     gap: 23px;
-    padding: 30px;
+    padding: 0 30px;
 }
 
 .hero> :first-child{
@@ -77,4 +77,48 @@ nav button {
     text-align: center;
     font-weight: 400;
     font-size: 20px;
+}
+
+.seperation{
+    height: 7px;
+    background-color: rgb(94, 94, 94);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight:400;
+    color: white;
+    background-color: rgba(255, 255,255, 0.3);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{
+    padding: 7px 100px 7px 14px;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(242, 238, 238, 0.7);
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+
 }
