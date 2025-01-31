@@ -135,18 +135,19 @@ nav button {
 
 .first{
     display: flex;
-    justify-content: center;
     max-width: 70vw;
-    margin: auto;
+    margin: 7px;
     color: white;
     justify-content: center;
     align-items: center;
+    padding-left: 80px;  
 }
 
 .secimg{
     position: relative;
 }
 .secimg img{
+    top: 7px;
     width: 30vw;
     max-width: 200%;
     position: relative;
@@ -168,10 +169,10 @@ section.first >div{
     flex-direction: column;
 }
 section.first >div :first-child{
-    font-size: 48px;
+    font-size: 30px;
     font-weight: bolder;
 }
 
 section.first > div :nth-child(2){
-    font-size: 24px;
+    font-size: 20px;
 }
